@@ -1,0 +1,19 @@
+#header {text-align: center; padding: 0px; margin:0px; border: 1px solid black;font-family: cursive; background-color: #99CCFF}
+
+#content{text-align: left; border: 1px solid black;  float: left; width: 85%; background-color: #99CCFF;}
+
+table {float:left; text-align: center;}
+
+footer {clear: both; text-align: center; padding-top: 400px}
+
+#imgtxt{position: absolute;
+        padding-left: 515px;
+        height: 400px;
+        width:  400px;
+        font-weight: bold;
+        color: red;}
+
+#image {position: relative; background: url("http://www.spurgeon.org/~phil/images/95thses.jpg"); height: 200px; width: 1030px;}
+
+a:hover {color: #cc0000;
+   font-weight: bold;}
