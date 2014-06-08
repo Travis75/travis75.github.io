@@ -1,7 +1,7 @@
 ol li { color: blue;}
 
-h1 {margin: auto; border: 1px solid black;}
+{margin: auto; border: 1px solid black;}
 
 #first {background-color: black; color: white;}
 
-p a {text-align: center; color: #CC0000;}
+p a {margin: auto; color: #CC0000;}
