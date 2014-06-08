@@ -1,7 +1,7 @@
 ol li { color: blue;}
 
-h1,h2,h3,h4,h5,h6 {text-align: center: border: 6px solid black;}
+h1,h2,h3,h4,h5,h6 {text-align: center: border: 1px solid black;}
 
 #first {background-color: black; color: white;}
 
-a {text-align: center; color: white;}
+p a {text-align: center; color: #CC0000;}
