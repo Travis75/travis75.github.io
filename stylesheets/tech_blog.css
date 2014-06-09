@@ -1,0 +1,72 @@
+#background { 
+    background: url("http://www.unsigneddesign.com/Seamless_background_textures/1200px/seamlesstexture1_1200.jpg");
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+            }
+            
+#fh {position: relative;
+    height: 5%;
+    width: 5%;
+    margin-top: 5%;
+    z-index: 2;
+    margin-left: 45%;
+    font-family: Gill Sans;
+    text-shadow: 4px 3px 0px rgba(0,0,0,0.2);}
+            
+h1 {position: relative;
+    height: 5%;
+    width: 5%;
+    margin-top: 15%;
+    z-index: 2;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Gill Sans;
+    text-shadow: 4px 3px 0px rgba(0,0,0,0.2);
+    }
+
+p {position: relative;
+    height: 5%;
+    width: 100%; 
+    z-index: 2;
+    text-indent: 20px;
+    }
+
+#yahoo {
+    content: url("http://www.businessweek.com/the_thread/techbeat/archives/New%20Yahoo%20Homepage.jpg");
+    position: relative;
+    z-index: 1;
+    width: 15%;
+    height: 20%;
+    margin-top: 0%; 
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+        }
+        
+#Netflix {
+    content: url("http://tncdn.vikitech.netdna-cdn.com/assets/Netflix-630x297.png");
+    position: relative;
+    z-index: 1;
+    width: 15%;
+    height: 20%;
+    margin-top: 0%; 
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+        }
+        
+#Techcrunch {
+    content: url("http://technologyadvice.com/wp-content/uploads/2013/11/TechCrunchHomepageNovFifth.png");
+    position: relative;
+    z-index: 1;
+    width: 15%;
+    height: 20%;
+    margin-top: 0%; 
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+        }
