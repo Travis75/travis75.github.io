@@ -1,0 +1,65 @@
+h1 {
+    padding-left: 35%; 
+    position: absolute; 
+    z-index: 2;
+    font-family: Gill Sans;
+    text-shadow: 4px 3px 0px rgba(0,0,0,0.2);
+    width: 100%;
+    font-size: 50px;
+    }
+
+#background { 
+    background: url("http://www.unsigneddesign.com/Seamless_background_textures/1200px/seamlesstexture1_1200.jpg");
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+            }
+            
+#technical { 
+    content: url("http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2011/12/Computer-Code-520x390.jpg");
+    position: relative;
+    z-index: 3;
+    width: 15%;
+    height: 20%;
+    float: left; 
+    margin-top: 20%;
+    margin-left: 25%; 
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+            }
+            
+#cultural {
+    content: url("http://www.traveltojapan.info/wp-content/uploads/japan-culture.jpg");
+    position: relative;
+    z-index: 3;
+    width: 15%;
+    height: 20%;
+    float: left;
+    margin-top: 20%; 
+    margin-left: 5%;
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+            }
+
+#wireframing {
+    content: url("http://images.sixrevisions.com/2010/10/28-02_iphoneapp.jpg");
+    position: relative;
+    z-index: 3;
+    width: 15%;
+    height: 20%;
+    float: left;
+    margin-top: 20%; 
+    margin-left: 5%;
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+            }
+            
+p {position: absolute; 
+    z-index: 3; 
+    width: 50%; 
+    margin-top: 40%;
+    margin-left: 25%;
+    text-align: center;
+    font-family: Gill Sans;
+    }
+            
