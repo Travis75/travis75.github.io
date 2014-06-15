@@ -57,4 +57,9 @@ a { text-decoration: none;}
 a img:hover{width:20%; height: 20%}
     
     
-            
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {header {width:33%}
+                                p {float:none; margin-top:0;
+                                   text-align:center;}
+                                li {display: block; text-align:left}}
