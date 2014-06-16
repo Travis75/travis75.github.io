@@ -37,7 +37,7 @@ p {position: relative;
 
 #second {margin-top: 0%;}
 
-div img {position: relative; z-index: 4; margin-top: 22%; margin-bottom: 5%; margin-left: 30%;max-height: 50%; max-width: 50%}
+div img {position: relative; z-index: 4; margin-top: 15%; margin-bottom: 5%; margin-left: 30%;max-height: 50%; max-width: 50%}
 
 #fireside {
     content: url("http://blog.teamtreehouse.com/wp-content/uploads/2012/11/position-relative.jpg");
