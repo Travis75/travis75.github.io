@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+      <link type = "text/css" rel = "stylesheet" href ="stylesheets/week_6_technical.css"/>
+      <title> Technical Blog </title>
+    </head>
+    <body>
+      <div id= "wrapper">
+        <h1>Variable Scope</h1>
+        <div id="main_photo"></div>
+        <p>There are four levels of scope for variables in Ruby. Each is discernable through the unique identifier placed before the variable name.</p>
+        <p><b>@</b> defines an instance variable. An instance variable is defined in the context of a class. The local variable is bound to that instance of a class. The instance variable can be thought of as the composite parts of an object. An instance variable can be utilized in any method contained within the class it is a part of. Instance variables will most likely be found in any initialize method for a class. However, while that is a likely place to find instance variables being defined they can be defined from any method within a specific class.</p>
+        <p><b>@@</b> defines a class variable. These variables are common amongst any instance of a class. This means that all instances of a class share the same class variable as opposed to having their own instance variable to work with. A real world example would be having two seperate cars but only one CD case to share amongst both cars. Think of the idea of a car as the class and each car as an instance of the car class. Each car has its own wheels, engine, seats, etc. These are the instance variables for each instance of the car class. The CD changer is a class variable. If you lose a CD in one car, or scratch one, or throw a terrible one out the window that will be carried over to the other instance of car class when you decide to drive the other car and bring along your CD case.</p>
+        <p><b>$</b> defines a global variable. A global variable is useable in any location of a Ruby program, regardless of where you define your global variable. Going back to the CD example, this means you can play your CD's in your computer or anywhere else you see fit. Basically, you can change a global variable from anywhere!</p>
+        <p> Finally we have local variables. Local variables are not defined with any fancy symbols before their name, a local variable is simply defined by variable = x. Local variables are only available within the specific block they are being used in. Outside of that block they do not exisit.<p>
+        <p></p>
+       <!--<div id = "photo_container"></div>
+        <div id= "footer"><a href="mailto:travis.gibson75@gmail.com" target="_blank"><span>Contact Travis Gibson</span></a></div>
+      </div>-->
+    </body>
+  </html>
