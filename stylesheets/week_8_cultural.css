@@ -1,0 +1,28 @@
+body {background: url("file:stardust/stardust.png");}
+
+h1 {text-align: center;
+    margin:0;
+    padding:0;
+    color: black;
+    font-family:'Poiret One';
+    border-bottom: 2px black solid;
+    }
+
+#main_photo{
+    margin-left:auto;
+    margin-right:auto;
+    content: url("http://schamberhealing.com/wp-content/uploads/2013/10/conflict-final-3.jpg");
+    height:30%;
+    width:30%;
+    margin-top: 1%;
+    border-radius:5%;
+    background-repeat: no-repeat;
+    box-shadow: 7px 6px 6px #000000;
+        }
+
+p {font-family:'Poiret One';
+  color:white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  width:50%;
+  text-align:center;
+  margin-left:25%;}
